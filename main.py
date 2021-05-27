@@ -9,7 +9,7 @@ use_r = base64.b64decode('username').decode("utf-8")
 pass_word = base64.b64decode('password').decode("utf-8")
 # encoded password
 # base64.b64encode("password").decode("utf-8")
-
+## hfoaf;msdf
 driver = webdriver.Chrome("D:/BrowserDrivers/chromedriver") # Chrome webdrivers path
 url = 'https://www.facebook.com/'
 timeout = 5
