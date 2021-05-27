@@ -16,7 +16,7 @@ timeout = 5
 try:
     ### test
 
-    ## sample
+
     request = requests.get(url, timeout=timeout)
     print("Connected to the Internet.")
     driver.get(url)
