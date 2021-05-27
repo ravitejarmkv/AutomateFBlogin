@@ -14,9 +14,6 @@ driver = webdriver.Chrome("D:/BrowserDrivers/chromedriver") # Chrome webdrivers 
 url = 'https://www.facebook.com/'
 timeout = 5
 try:
-    ### test
-
-
     request = requests.get(url, timeout=timeout)
     print("Connected to the Internet.")
     driver.get(url)
